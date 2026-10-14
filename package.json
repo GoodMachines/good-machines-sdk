@@ -1,0 +1,21 @@
+{
+  "name": "@gma/server",
+  "version": "0.2.3",
+  "description": "Good Machines server SDK: lets the hosted assistant call an app's own server as the signed-in user.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "jose": "6.2.12"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
